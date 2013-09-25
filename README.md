@@ -3,13 +3,14 @@ FYOW
 
 ## Launch the app locally
 
-* install sinatra and shotgun
-`gem install sinatra shotgun`
+* install bundler   
+`gem install bundler`
 
-* cd into the app directory and launch the app
-`shotgun app.rb`
+* install Gemfile content   
+`bundler install`
 
-* Launch your browser to [http://localhost:9393](http://localhost:9393)
+* launch the app 
+`bundler exec rackup`
 
 ## Documentation
 
