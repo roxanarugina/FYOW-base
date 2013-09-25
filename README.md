@@ -9,7 +9,7 @@ FYOW
 * install Gemfile content   
 `bundler install`
 
-* launch the app 
+* launch the app   
 `bundler exec rackup`
 
 ## Documentation

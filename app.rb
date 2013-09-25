@@ -1,5 +1,7 @@
 require 'sinatra'
+require 'haml'
+
 
 get '/' do
-  "Hello world! <br> Please FIND YOUR OWN WAY. <br> It's #{Time.now} on the machine! <br> Keep pressing F5"
+  haml :index, :format => :html5
 end
