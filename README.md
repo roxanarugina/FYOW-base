@@ -1,7 +1,7 @@
 FYOW
 ====
 
-### Launch the app locally   
+## Launch the app locally   
 Clone this repo   
 `git clone https://github.com/Em-AK/fyow.git`
 
