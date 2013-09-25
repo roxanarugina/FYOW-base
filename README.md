@@ -1,17 +1,24 @@
 FYOW
 ====
 
-## Launch the app locally
+### Launch the app locally   
+Clone this repo   
+`git clone https://github.com/Em-AK/fyow.git`
 
-* install bundler   
+Move into the app folder
+`cd fyow`
+
+Install bundler   
 `gem install bundler`
 
-* install Gemfile content   
+Bundler automates the installation of the gem dependecies listed in Gemfile  
 `bundler install`
 
-* launch the app 
+Launch the app   
 `bundler exec rackup`
 
-## Documentation
+Your app is now running by default at : [http://localhost:9292](http://localhost:9292)  
+
+## Usefull documentation
 
 * [Sinatra](http://www.sinatrarb.com/intro.html)
