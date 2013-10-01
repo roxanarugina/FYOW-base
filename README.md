@@ -12,10 +12,10 @@ Install bundler
 `gem install bundler`
 
 Bundler automates the installation of the gem dependecies listed in Gemfile  
-`bundler install`
+`bundle install`
 
 Launch the app   
-`bundler exec rackup`
+`bundle exec rackup`
 
 Your app is now running by default at : [http://localhost:9292](http://localhost:9292)  
 
