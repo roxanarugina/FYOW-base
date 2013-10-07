@@ -13,6 +13,7 @@
     %script{:src => "/jquery.js", :type => "text/javascript"}
     
   %body
+   
     .container
       #nav.row
         / Visible if screen width < 768px
@@ -31,11 +32,15 @@
 
       .row
         .col-sm-12.skyline
-          %img.img-responsive{:src => "/skyline.png"}
+          %img.img-responsive{:src => "/the-skyline.png"}
+
 
       -# Render the content of the view
+
+
       .content= yield
-      
       .row
         .col-sm-12.skyline
-          %img.img-responsive{:src => "/pavement.png"}
+          %img.img-responsive{:src => "/the-pavement.png"}
+
+
