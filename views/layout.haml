@@ -1,9 +1,41 @@
 !!!
 %html
-	%head
-		%title Find Your Own Way
-		%meta{:charset => "utf-8"}/
-		%link{:href => "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css", :rel => "stylesheet"}
-		%script{:href => "//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js", :type => "text/javascript"}
-	%body
-		= yield
+  %head
+    %title Find Your Own Way
+    %meta{:charset => "utf-8"}
+    / Ensure proper rendering and touch zooming
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
+    / Make it pretty
+    %link{:href => "/bootstrap.min.css", :rel => "stylesheet"}
+    %link{:href => "/style.css", :rel => "stylesheet"}
+    / And dynamic
+    %script{:src => "/bootstrap.min.js", :type => "text/javascript"}
+    %script{:src => "/jquery.js", :type => "text/javascript"}
+    
+  %body
+    .container
+      #nav.row
+        / Visible if screen width < 768px
+        .col-xs-12.visible-xs
+          %a.home.visible-xs{:href => "http://fyow.net"}
+            FIND YOUR
+            %br OWN WAY
+        .col-xs-12.visible-xs
+          %img.visible-xs{:src => "/kairos-friendly.png", :title => "Kairos Friendly"}
+
+        / Visible if screen width ≥ 768px
+        .col-xs-9.hidden-xs
+          %a.home.hidden-xs{:href => "http://fyow.net"} FIND YOUR OWN WAY
+        .col-xs-3.hidden-xs
+          %img.pull-right.hidden-xs{:src => "/kairos-friendly.png", :title => "Kairos Friendly"}
+
+      .row
+        .col-sm-12.skyline
+          %img.img-responsive{:src => "/skyline.png"}
+
+      -# Render the content of the view
+      .content= yield
+      
+      .row
+        .col-sm-12.skyline
+          %img.img-responsive{:src => "/pavement.png"}
