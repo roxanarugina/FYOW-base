@@ -32,28 +32,9 @@ body {
   margin: 0px auto 15px;
   padding: 0 1%;
 }
-<<<<<<< HEAD
-
-#bloc_video
-{
-height: 100%;
-}
-
-.fe_alert a
-{
-  display: none;
-}
-
-.fe_container, .fe_location, .fe_forecast_link 
-{
-  color: important-white!;
-}
-
-=======
 .skyline img {
   margin-bottom: -100px;
 }
->>>>>>> 79a667ec62a4ab006eeef914ca8ff68ab3cd0556
 .video-container { 
     position: relative;   
     padding-bottom: 56.25%;
@@ -65,16 +46,9 @@ height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-<<<<<<< HEAD
-    width: 100%;
-    height: 100%;
-
-
-=======
     width: 60%;
     height: 60%;
 }
 img.simplon{
   max-width: 200px;
 }
->>>>>>> 79a667ec62a4ab006eeef914ca8ff68ab3cd0556

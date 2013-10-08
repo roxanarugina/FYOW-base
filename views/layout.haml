@@ -13,29 +13,31 @@
     %script{:src => "/jquery.js", :type => "text/javascript"}
     
   %body
+   
     .container
       #nav.row
         / Visible if screen width < 768px
         .col-xs-12.visible-xs
-          %a.home.visible-xs{:href => "http://fyow.net"}
+          %a.home.visible-xs{:href => "/", :title => "Home"}
             FIND YOUR
             %br OWN WAY
         .col-xs-12.visible-xs
-          %img.visible-xs{:src => "/kairos-friendly.png", :title => "Kairos Friendly"}
+          %img.visible-xs{:src => "/kairos-friendly.png", :title => "About"}
 
         / Visible if screen width ≥ 768px
         .col-xs-9.hidden-xs
-          %a.home.hidden-xs{:href => "http://fyow.net"} FIND YOUR OWN WAY
+          %a.home.hidden-xs{:href => "/", :title => "Home"} FIND YOUR OWN WAY
         .col-xs-3.hidden-xs
-          %img.pull-right.hidden-xs{:src => "/kairos-friendly.png", :title => "Kairos Friendly"}
+          %a{:href => "/about", :title => "About"}
+            %img.pull-right.hidden-xs{:src => "/kairos-friendly.png", :title => "About"}
 
       .row
         .col-sm-12.skyline
           %img.img-responsive{:src => "/the-skyline.png"}
 
       -# Render the content of the view
-      .content= yield
+      .row.content= yield
       
       .row
-        .col-sm-12.skyline
+        .col-sm-12.pavement
           %img.img-responsive{:src => "/the-pavement.png"}
