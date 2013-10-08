@@ -32,17 +32,10 @@ body {
   margin: 0px auto 15px;
   padding: 0 1%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-#bloc_video
-{
-=======
 .skyline img {
   margin-bottom: -90px;
 }
 #bloc_video {
->>>>>>> 4cc22865a0fa4f0c754461dff461dbd0d3542bac
 height: 100%;
 }
 .fe_alert a {
@@ -51,15 +44,6 @@ height: 100%;
 .fe_container, .fe_location, .fe_forecast_link {
   color: important-white!;
 }
-<<<<<<< HEAD
-
-=======
-.skyline img {
-  margin-bottom: -100px;
-}
->>>>>>> 79a667ec62a4ab006eeef914ca8ff68ab3cd0556
-=======
->>>>>>> 4cc22865a0fa4f0c754461dff461dbd0d3542bac
 .video-container { 
     position: relative;   
     padding-bottom: 56.25%;
@@ -71,26 +55,12 @@ height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 100%;
     height: 100%;
-
-
-=======
-    width: 60%;
-    height: 60%;
-=======
-    width: 100%;
-    height: 100%;
->>>>>>> 4cc22865a0fa4f0c754461dff461dbd0d3542bac
 }
 img.simplon {
   max-width: 200px;
 }
-<<<<<<< HEAD
->>>>>>> 79a667ec62a4ab006eeef914ca8ff68ab3cd0556
-=======
 img.kairos {
   border: 3px solid #000000;
   padding: 8px;
@@ -99,4 +69,3 @@ img.kairos {
 img.thinglink {
   max-width: 100%;
 }
->>>>>>> 4cc22865a0fa4f0c754461dff461dbd0d3542bac
