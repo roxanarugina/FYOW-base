@@ -35,9 +35,6 @@ body {
 .skyline img {
   margin-bottom: -90px;
 }
-#bloc_video {
-height: 100%;
-}
 .fe_alert a {
   display: none;
 }
@@ -48,6 +45,7 @@ height: 100%;
     position: relative;   
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
+    margin-bottom: 20px;
 }
 .video-container iframe,
 .video-container object,
