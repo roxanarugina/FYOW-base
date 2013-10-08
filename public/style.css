@@ -33,7 +33,16 @@ body {
   padding: 0 1%;
 }
 .skyline img {
-  margin-bottom: -100px;
+  margin-bottom: -90px;
+}
+#bloc_video {
+height: 100%;
+}
+.fe_alert a {
+  display: none;
+}
+.fe_container, .fe_location, .fe_forecast_link {
+  color: important-white!;
 }
 .video-container { 
     position: relative;   
@@ -46,9 +55,17 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 60%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
 }
-img.simplon{
+img.simplon {
   max-width: 200px;
+}
+img.kairos {
+  border: 3px solid #000000;
+  padding: 8px;
+  background-color: #FFFFFF;
+}
+img.thinglink {
+  max-width: 100%;
 }
