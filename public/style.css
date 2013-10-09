@@ -41,8 +41,13 @@ height: 100%;
 .fe_alert a {
   display: none;
 }
-.fe_container, .fe_location, .fe_forecast_link {
-  color: important-white!;
+
+#forecast_embed {
+  color: white;
+}
+
+.fe_container, .fe_title, .fe_forecast, .fe_alert, .fe_loading {
+  color: white;
 }
 .video-container { 
     position: relative;   
