@@ -33,10 +33,7 @@ body {
   padding: 0 1%;
 }
 .skyline img {
-  margin-bottom: -90px;
-}
-#bloc_video {
-height: 100%;
+  margin-bottom: -50px;
 }
 .fe_alert a {
   display: none;
@@ -53,6 +50,7 @@ height: 100%;
     position: relative;   
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
+    margin-bottom: 20px;
 }
 .video-container iframe,
 .video-container object,
@@ -73,4 +71,88 @@ img.kairos {
 }
 img.thinglink {
   max-width: 100%;
+}
+.navbar a {
+  margin: 0 20px;
+  font-size: 42px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #929292;
+  text-decoration: none;
+}
+
+
+/* Font integration for .icon-arrow-left and .icon-arrow-right */
+ 
+@charset "UTF-8";
+ 
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg"),
+    url("fonts/untitled-font-1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[data-icon]:after {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+[class^="icon-"]:after,
+[class*=" icon-"]:after {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+ 
+.icon-arrow-left:before {
+   content: "n"; 
+} 
+ 
+.icon-arrow-right:after {
+   content: "u"; 
 }

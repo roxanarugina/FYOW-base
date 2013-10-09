@@ -1,1 +1,22 @@
-%p Welcome on page 2
+.col-md-10.col-md-offset-1
+	
+	-# If you change this navbar you must also change the navbar at the bottom of the page!
+	.navbar.row
+		.col-sm-10.col-sm-offset-1
+			%a.icon-arrow-left{:href =>"/1", :title => "Précédent"}
+			%a.icon-arrow-right.pull-right{:href =>"/3", :title => "Suivant"}
+
+	%h3 #2 FIND &rarr; Liechtenstein
+	.video-container
+		-# copy/paste youtube code
+		<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/phBrOVNOXWY?rel=0" frameborder="0" allowfullscreen></iframe>
+	.row
+		.col-md-6.meteo
+			<iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=37.7608&lon=-140.4747&name=Fukushima&color=#ffffff&font=Georgia&units=uk"></iframe>
+		.col-md-6.timer
+			<iframe src="http://free.timeanddate.com/countdown/i3u2ac79/n195/cf12/cm0/cu5/ct4/cs0/ca0/cr0/ss0/cacf3f3f3/cpcf3f3f3/pc555/tc833891/fs50/szw300/szh300/tatD%C3%A9part%20pour%20Fukushima/tacf3f3f3/tptCaisson%20parti%20pour%20Fukushima%20il%20y%20a/tpcf3f3f3/matdans/macf3f3f3/mpc000/iso2013-10-10T12:00:00/pa10" frameborder="0" width="100%" height="100%"></iframe>
+
+	.navbar.row
+		.col-sm-10.col-sm-offset-1
+			%a.icon-arrow-left{:href =>"/1", :title => "Précédent"}
+			%a.icon-arrow-right.pull-right{:href =>"/3", :title => "Suivant"}
