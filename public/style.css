@@ -35,17 +35,11 @@ body {
 .skyline img {
   margin-bottom: -50px;
 }
+
 .fe_alert a {
   display: none;
 }
 
-#forecast_embed {
-  color: white;
-}
-
-.fe_container, .fe_title, .fe_forecast, .fe_alert, .fe_loading {
-  color: white;
-}
 .video-container { 
     position: relative;   
     padding-bottom: 56.25%;
@@ -61,6 +55,22 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.widgets {
+  background-color: rgb(170, 170, 170);
+  margin-right: 0;
+  margin-left: 0;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-height: 250px;
+}
+
+.timer {
+  max-height: 250px;
+  margin-top: 40px;
+}
+
 img.simplon {
   max-width: 200px;
 }
