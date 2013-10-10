@@ -35,12 +35,23 @@ body {
 .skyline img {
   margin-bottom: -50px;
 }
+
+img.simplon {
+  max-width: 200px;
+}
+img.kairos {
+  border: 3px solid #000000;
+  padding: 8px;
+  background-color: #FFFFFF;
+}
+img.thinglink {
+  max-width: 100%;
+}
+
 .fe_alert a {
   display: none;
 }
-.fe_container, .fe_location, .fe_forecast_link {
-  color: important-white!;
-}
+
 .video-container { 
     position: relative;   
     padding-bottom: 56.25%;
@@ -56,17 +67,41 @@ body {
     width: 100%;
     height: 100%;
 }
-img.simplon {
-  max-width: 200px;
+
+/* ------ Wigets area ------ */
+.widgets {
+  background-color: #A1B2B1;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  /*color: #7D096B;*/
+  color: #333333;
 }
-img.kairos {
-  border: 3px solid #000000;
-  padding: 8px;
-  background-color: #FFFFFF;
+.widgets h4 {
+  font-weight: 700;
 }
-img.thinglink {
-  max-width: 100%;
+.widgets a {
+  color: #333333;
+  text-decoration: underline;
+  font-weight: 300;
 }
+.widgets a:hover {
+  text-decoration: none;
+}
+.timer {
+  max-height: 250px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.technograph iframe{
+  width: 100%;
+  min-height: 200px;
+}
+
+/* ------ Navigation ------ */
 .navbar a {
   margin: 0 20px;
   font-size: 42px;
@@ -78,9 +113,8 @@ img.thinglink {
   text-decoration: none;
 }
 
-
 /* Font integration for .icon-arrow-left and .icon-arrow-right */
- 
+
 @charset "UTF-8";
  
 @font-face {
