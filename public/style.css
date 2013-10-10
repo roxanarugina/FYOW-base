@@ -77,6 +77,18 @@ img.thinglink {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 7px;
+  color: #333333;
+}
+.widgets h4 {
+  font-weight: 700;
+}
+.widgets a {
+  color: #333333;
+  text-decoration: underline;
+}
+.widgets a:hover {
+  color: #333333;
+  text-decoration: none;
 }
 .timer {
   max-height: 250px;
@@ -86,10 +98,6 @@ img.thinglink {
 .technograph iframe{
   width: 100%;
   min-height: 200px;
-}
-.technograph h4 {
-  color: #333333;
-  font-weight: 700;
 }
 
 /* ------ Navigation ------ */
