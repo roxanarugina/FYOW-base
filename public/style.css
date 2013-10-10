@@ -36,6 +36,18 @@ body {
   margin-bottom: -50px;
 }
 
+img.simplon {
+  max-width: 200px;
+}
+img.kairos {
+  border: 3px solid #000000;
+  padding: 8px;
+  background-color: #FFFFFF;
+}
+img.thinglink {
+  max-width: 100%;
+}
+
 .fe_alert a {
   display: none;
 }
@@ -56,6 +68,7 @@ body {
     height: 100%;
 }
 
+/* ------ Wigets area ------ */
 .widgets {
   background-color: #A1B2B1;
   margin-right: 0;
@@ -65,31 +78,21 @@ body {
   padding-bottom: 10px;
   border-radius: 7px;
 }
-
-
-
-
-
-
-
-
 .timer {
   max-height: 250px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.technograph iframe{
+  width: 100%;
+  min-height: 200px;
+}
+.technograph h4 {
+  color: #333333;
+  font-weight: 700;
+}
 
-img.simplon {
-  max-width: 200px;
-}
-img.kairos {
-  border: 3px solid #000000;
-  padding: 8px;
-  background-color: #FFFFFF;
-}
-img.thinglink {
-  max-width: 100%;
-}
+/* ------ Navigation ------ */
 .navbar a {
   margin: 0 20px;
   font-size: 42px;
@@ -101,9 +104,8 @@ img.thinglink {
   text-decoration: none;
 }
 
-
 /* Font integration for .icon-arrow-left and .icon-arrow-right */
- 
+
 @charset "UTF-8";
  
 @font-face {
