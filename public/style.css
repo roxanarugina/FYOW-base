@@ -37,12 +37,13 @@ body {
 }
 
 img.simplon {
-  max-width: 200px;
+  max-width: 220px;
 }
 img.kairos {
   border: 3px solid #000000;
   padding: 8px;
   background-color: #FFFFFF;
+  margin-bottom: 30px;
 }
 img.thinglink {
   max-width: 100%;
