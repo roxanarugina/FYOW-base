@@ -48,10 +48,6 @@ img.thinglink {
   max-width: 100%;
 }
 
-.fe_alert a {
-  display: none;
-}
-
 .video-container { 
     position: relative;   
     padding-bottom: 56.25%;
@@ -91,12 +87,14 @@ img.thinglink {
 .widgets a:hover {
   text-decoration: none;
 }
+.widget {
+  text-align: center;
 .timer {
   max-height: 250px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.technograph iframe{
+.technograph iframe {
   width: 100%;
   min-height: 200px;
 }
@@ -114,7 +112,7 @@ img.thinglink {
 }
 
 /* Font integration for .icon-arrow-left and .icon-arrow-right */
-
+ 
 @charset "UTF-8";
  
 @font-face {
