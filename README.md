@@ -1,12 +1,12 @@
-FYOW
+Tutotracker - un suivi d'apprentisage 
 ====
 
 ## Launch the app locally   
 Clone this repo   
-`git clone https://github.com/Em-AK/fyow.git`
+`git clone git@github.com:roxanarugina/tutotracker.git`
 
 Move into the app folder
-`cd fyow`
+`cd tutotracker`
 
 Install bundler   
 `gem install bundler`
@@ -32,5 +32,4 @@ C'est le fichier à modifier pour intégrer le `header` et le `footer`.
 
 Les autres vues (ex. `3.haml`) contiennent seulement le contenu spécifique à la page en question...DRY !
 	
-* Vidéo
-* Widgets
+
